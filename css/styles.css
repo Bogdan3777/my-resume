@@ -20,7 +20,7 @@ ol {
 
 /* main-content */
 .main-content {
-  padding-left: 88px;
+  padding-left: 80px;
   padding-top: 80px;
   padding-right: 40px;
   padding-bottom: 80px;
@@ -226,4 +226,54 @@ ol {
   font-weight: 400;
   line-height: normal;
   margin-top: 8px;
+}
+@media screen and (max-width: 960px) {
+  body {
+    padding: 20px 20px 20px 20px;
+  }
+  .main-content {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    max-width: 250px;
+  }
+  .my-photo {
+    max-width: 250px;
+  }
+  .sidebar-content {
+    padding: 20px;
+  }
+  .my-name {
+	font-size: 36px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+  .sidebar {
+    max-width: 200px;
+  }
+  .my-photo {
+    max-width: 200px;
+  }
+  .main-content {
+    padding: 20px;
+  }
+  .my-name {
+	font-size: 28px;
+  }
+}
+@media screen and (max-width: 510px) {
+	.wrapper {
+		flex-direction: column;
+	}
+	  .sidebar {
+    max-width: 100%;
+  }
+  .my-photo {
+    max-width: 100%;
+  }
 }
