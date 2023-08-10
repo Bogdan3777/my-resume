@@ -14,7 +14,7 @@ ol {
   background: #fff;
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -246,7 +246,7 @@ ol {
     padding: 20px;
   }
   .my-name {
-	font-size: 36px;
+    font-size: 36px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -263,14 +263,14 @@ ol {
     padding: 20px;
   }
   .my-name {
-	font-size: 28px;
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 510px) {
-	.wrapper {
-		flex-direction: column;
-	}
-	  .sidebar {
+  .wrapper {
+    flex-direction: column;
+  }
+  .sidebar {
     max-width: 100%;
   }
   .my-photo {
